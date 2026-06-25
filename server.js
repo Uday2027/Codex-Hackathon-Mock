@@ -278,4 +278,5 @@ if (require.main === module) {
     });
 }
 
-module.exports = { app, classifyTicket };
+app.classifyTicket = classifyTicket;
+module.exports = app;
